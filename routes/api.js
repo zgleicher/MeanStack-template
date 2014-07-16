@@ -9,7 +9,7 @@ module.exports = function(app) {
 		next();
 	});
 
-	router.route('events');
+	router.route('/events');
 
 	app.use('/api', router);
 };
